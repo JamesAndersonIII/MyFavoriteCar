@@ -25,7 +25,7 @@ h1, h2, h3 {
 p {
     font-size: large;
 }
-
+/* Wave Background */
 body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -94,4 +94,12 @@ body {
     100% {
         transform: translateX(1);
     }
+}
+.what_GTR {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+
 }
